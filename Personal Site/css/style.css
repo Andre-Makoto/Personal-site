@@ -1,0 +1,64 @@
+
+.fundo{
+    width: 100%;
+    background-color: #B5E2FA;
+}
+.heading{
+    color: #F7A072;
+    font-family: "Cardo", cursive;
+}
+.subheading{
+    color: #F7A072;
+    font-family: "glacial indifference", cursive;
+    font-size: 1.5rem;
+}
+.title-text{
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+    color: #F7A072;
+}
+.title{
+    font-size: 6rem;
+    font-family: "Cardo", cursive;
+}
+.subtitle{
+    font-size: 4rem;
+    font-family: "glacial indifference", cursive;
+}
+.subtitle-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    color: #F7A072;
+}
+.ladder{
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.myself{
+    border-radius: 100%;
+}
+.skill{
+    color: #F7A072;
+    font-family: "Cardo", cursive;
+    text-align: center;
+}
+.parent{
+    display:grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    font-size: 1.5rem;
+    row-gap: 2rem;
+}
+.item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
