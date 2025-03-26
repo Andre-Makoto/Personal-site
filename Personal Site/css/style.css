@@ -1,5 +1,6 @@
 
 html, body {
+    scroll-behavior: smooth;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -72,6 +73,24 @@ html, body {
 .contact-section{
     height:300px;
     text-align: center;
+}
+.bottom-container{
+    height: 200px;
+    background-color: #B5E2FA;
+    text-align: center;
+    padding: 50px 0 20px;
+}
+.footer-link{
+    margin: 20px;
+    text-decoration: none;
+    font-family: "Cardo", cursive;
+    color: #F7A072;
+    font-size: 2rem;
+}
+.copyright{
+    margin: 40px;
+    color: white;
+    font-family: "glacial indifference", cursive;
 }
 @media (max-width:800px){
     .parent{
